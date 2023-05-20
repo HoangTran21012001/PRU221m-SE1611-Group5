@@ -1,0 +1,21 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+
+# Unity build data files
+*.apk
+*.unitypackage
+
+# Visual Studio / MonoDevelop generated files
+/*.booproj
+/*.pidb
+/*.suo
+/*.user
+/*.userprefs
+/*.usertasks
+/*.sln
+/*.csproj
+/*.unityproj
+/*.sln.DotSettings
+/*.userprefs.DotSettings
