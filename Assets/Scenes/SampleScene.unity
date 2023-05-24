@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 492374946}
   - component: {fileID: 492374945}
   - component: {fileID: 492374947}
+  - component: {fileID: 492374948}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -350,6 +351,20 @@ MonoBehaviour:
   enemiesPerSecond: 0.5
   timeBetweenWaves: 5
   diffcultyScalingFactor: 0.75
+--- !u!114 &492374948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492374944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a76b7430cf89e49a63663b143cb4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefabs:
+  - {fileID: 8701640745782243827, guid: eb9863374170c65488c1b659208036e5, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -52196,6 +52211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305892044}
   - component: {fileID: 1305892043}
+  - component: {fileID: 1305892045}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -52232,6 +52248,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1305892045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305892042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc38459df1947144184301ea29bdc24f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 1645265544}
+  hoverColor: {r: 0.8962264, g: 0.09638655, b: 0.09638655, a: 0.654902}
 --- !u!1 &1491100632
 GameObject:
   m_ObjectHideFlags: 0
@@ -52263,6 +52293,11 @@ Transform:
   m_Father: {fileID: 983907321}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1645265544 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8701640745761161506, guid: eb9863374170c65488c1b659208036e5, type: 3}
+  m_PrefabInstance: {fileID: 8701640746828369977}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2124612243
 GameObject:
   m_ObjectHideFlags: 0
