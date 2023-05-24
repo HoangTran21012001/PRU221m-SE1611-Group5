@@ -5,7 +5,10 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [Header("Atribute")]
-    [SerializeField] private int hitPoints = 2;
+    [SerializeField] 
+    private int hitPoints = 2;
+    [SerializeField] 
+    private int currencyWorth = 50;
 
     private bool isDestroyed = false;
     public void TakeDamage(int dmg)
@@ -15,6 +18,7 @@ public class Health : MonoBehaviour
         if (hitPoints <= 0 && !isDestroyed)
         {
             EnemySpawner.onEnemyDestroy.Invoke();
+            LevelManager.main.InCreaseCurrency(currencyWorth);
             isDestroyed= true;
             Destroy(gameObject);
         }
