@@ -981,6 +981,7 @@ GameObject:
   - component: {fileID: 492374945}
   - component: {fileID: 492374947}
   - component: {fileID: 492374948}
+  - component: {fileID: 492374949}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -1039,10 +1040,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 5557422397096236960, guid: abf31550c56d70e419aa1160bcf6f304, type: 3}
+  - {fileID: 6625160586409506225, guid: cba6b8d1ab0f8064d82ce4cfc1ce8ca8, type: 3}
   baseEnemies: 8
   enemiesPerSecond: 0.5
   timeBetweenWaves: 5
   diffcultyScalingFactor: 0.75
+  enemiesPerSecondCap: 15
 --- !u!114 &492374948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,11 +1060,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towers:
   - name: Basic Tower
-    cost: 100
+    cost: 50
     prefab: {fileID: 8701640745782243827, guid: eb9863374170c65488c1b659208036e5, type: 3}
-  - name: Test Turret
-    cost: 200
-    prefab: {fileID: 8701640745782243827, guid: c0ee0785ef9c5f64bbbf5f4c28980de5, type: 3}
+  - name: SlowTurret
+    cost: 50
+    prefab: {fileID: 1945923646845847797, guid: b979db795e211064eb65023737eac4d3, type: 3}
+--- !u!114 &492374949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492374944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a5857c39f3ba14ebcd2d046c80953c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11166,9 +11181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Test Turret
-
-'
+  m_text: Slow Turret
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -55163,7 +55176,7 @@ GameObject:
   - component: {fileID: 1446758136}
   - component: {fileID: 1446758135}
   m_Layer: 5
-  m_Name: Test Turret
+  m_Name: SlowTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

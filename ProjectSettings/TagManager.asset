@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Turret
+    uniqueID: 1634494431
+    locked: 0
+  - name: UI
+    uniqueID: 846778701
+    locked: 0
