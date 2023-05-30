@@ -56,6 +56,7 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
+        Debug.Log(currentWave);
         StartCoroutine(StartWave());
     }
 
@@ -82,6 +83,7 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
         eps = EnemiesPerSecond();
+
     }
     private float EnemiesPerSecond()
     {

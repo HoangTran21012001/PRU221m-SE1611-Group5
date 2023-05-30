@@ -9,12 +9,16 @@ public class LevelManager : MonoBehaviour
 
     public Transform startPoint;
     public Transform[] path;
-
+    public static int Lives;
+    public int startLives = 20;
+    public static int Rounds;
     public int currency;
 
     private void Awake()
     {
         main = this;
+        Lives = startLives;
+        Rounds = 0;
     }
 
     private void Start()
@@ -22,7 +26,7 @@ public class LevelManager : MonoBehaviour
         currency = 100;
     }
 
-    public void InCreaseCurrency( int amount)
+    public void InCreaseCurrency(int amount)
     {
         currency += amount;
     }
