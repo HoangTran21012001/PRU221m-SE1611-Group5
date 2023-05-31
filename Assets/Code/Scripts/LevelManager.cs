@@ -18,12 +18,13 @@ public class LevelManager : MonoBehaviour
     {
         main = this;
         Lives = startLives;
-        Rounds = 0;
+
     }
 
     private void Start()
     {
         currency = 100;
+        Rounds = 1;
     }
 
     public void InCreaseCurrency(int amount)

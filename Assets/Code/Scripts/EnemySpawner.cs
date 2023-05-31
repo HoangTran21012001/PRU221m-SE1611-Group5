@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemySpawner : MonoBehaviour, IDataPersistenceManager
 {
     [Header("References")]
 
@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float diffcultyScalingFactor = 0.05f;
     [SerializeField] private float enemiesPerSecondCap = 15f;
-    
+
     [Header("Events")]
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
@@ -37,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
     }
     void Update()
     {
+        if (!isSpawning) return;
         timeSinceLastSpawn += Time.deltaTime;
         if (timeSinceLastSpawn >= (1f / eps) && enemiesLeftToSpawn > 0)
         {
@@ -56,14 +57,14 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
-        Debug.Log(currentWave);
+        LevelManager.Rounds++;
+        Debug.Log(LevelManager.Rounds);
         StartCoroutine(StartWave());
     }
 
     private void EnemyDestroyed()
     {
         enemiesAlive--;
-
     }
     private void SpawnEnemy()
     {
@@ -83,10 +84,19 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
         eps = EnemiesPerSecond();
-
     }
     private float EnemiesPerSecond()
     {
-        return Mathf.Clamp(enemiesPerSecond * Mathf.Pow(currentWave, diffcultyScalingFactor),0f, enemiesPerSecondCap);
+        return Mathf.Clamp(enemiesPerSecond * Mathf.Pow(currentWave, diffcultyScalingFactor), 0f, enemiesPerSecondCap);
+    }
+
+    public void LoadData(GameData data)
+    {
+         LevelManager.Rounds = data.roundCount;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.roundCount = LevelManager.Rounds;
     }
 }
