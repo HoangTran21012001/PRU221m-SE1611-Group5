@@ -30,7 +30,7 @@ public class EnemyMovement : MonoBehaviour
             if (pathIndex == LevelManager.main.path.Length)
             {
                 EnemySpawner.onEnemyDestroy.Invoke();
-                Destroy(gameObject);
+                EndPath();
                 return;
             }
             else
@@ -52,5 +52,11 @@ public class EnemyMovement : MonoBehaviour
     public void ResetSpeed()
     {
         moveSpeed = baseSpeed;
+    }
+
+    void EndPath()
+    {
+        LevelManager.Lives--;
+        Destroy(gameObject);
     }
 }

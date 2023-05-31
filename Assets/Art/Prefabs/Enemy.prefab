@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8310114511990142556}
-  moveSpeed: 2
+  moveSpeed: 10
 --- !u!114 &7227605730840311518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,4 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 1
   currencyWorth: 50
+<<<<<<< HEAD
+=======
   explosion: {fileID: 3910314581696037588, guid: 18331ccc37baa114889f3e5d85fd7e25, type: 3}
+>>>>>>> 1e73b116ec04f6e5e4e071ba67c358ee7f19c839
