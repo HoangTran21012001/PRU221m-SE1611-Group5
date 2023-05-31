@@ -13,7 +13,8 @@ public class Turret : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
     [SerializeField] private GameObject upgradeUI;
-    [SerializeField] private Button upgradeButton; 
+    [SerializeField] private Button upgradeButton;
+    [SerializeField] private AudioSource shootEffect;
 
     [Header("Atribute")]
     [SerializeField] private float targetingRange = 5f;
@@ -64,6 +65,7 @@ public class Turret : MonoBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
+        shootEffect.Play();
     }
 
     private void FindTarget()
