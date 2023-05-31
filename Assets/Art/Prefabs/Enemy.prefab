@@ -153,3 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 1
   currencyWorth: 50
+<<<<<<< HEAD
+=======
+  explosion: {fileID: 3910314581696037588, guid: 18331ccc37baa114889f3e5d85fd7e25, type: 3}
+>>>>>>> 1e73b116ec04f6e5e4e071ba67c358ee7f19c839
