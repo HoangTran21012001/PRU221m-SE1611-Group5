@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     private int currencyWorth = 50;
 
     private bool isDestroyed = false;
+
+    public GameObject explosion;
     public void TakeDamage(int dmg)
     {
         hitPoints -= dmg;
@@ -20,7 +22,13 @@ public class Health : MonoBehaviour
             EnemySpawner.onEnemyDestroy.Invoke();
             LevelManager.main.InCreaseCurrency(currencyWorth);
             isDestroyed= true;
-            Destroy(gameObject);
+            DestroyAni();
         }
+    }
+
+    void DestroyAni()
+    {
+        Instantiate(explosion, transform.position, Quaternion.identity); 
+        Destroy(gameObject);
     }
 }
