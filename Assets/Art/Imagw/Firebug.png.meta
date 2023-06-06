@@ -1,0 +1,1773 @@
+fileFormatVersion: 2
+guid: cde28a25811c93541aa02c748f05852b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Firebug_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 518
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f12460c61903ef4d9fa466751e23566
+      internalID: -1005177346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 518
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3bb9acfbfb5194987c2630290f7fb4
+      internalID: 966691803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 518
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954bdc2f7ba2873408eb570be48f9296
+      internalID: -718394292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 517
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e7c2dbac453f42b2ce46b29cefa90
+      internalID: 1834734709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 517
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03339fdf31ec54f45b0e91954a0c3e3c
+      internalID: -882935506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 517
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d15a857a76a28448a0c2cc80fbc78c
+      internalID: -2002553797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 454
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9641f4299ded741a5bb44952f1d92a
+      internalID: -2095785452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 454
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d5d55dd4a06f34e9010416d1b7f20b
+      internalID: -687048834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 454
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d862bd4069d67a4d93e0417122f02cf
+      internalID: -1263709099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 453
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45affa07733af2a418acf67ac5d67f98
+      internalID: 1309318018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 453
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870e87fb083b5264196afbf612f3a20b
+      internalID: 1338675892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 453
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dee4715b536ca4c9437d7267f69812
+      internalID: -2024274901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 399
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6ec81ed23f10145ada15df57d95641
+      internalID: 1202384333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 399
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91355b2e67d72ea44905d8487971c1b9
+      internalID: -1045843408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 399
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b9f72278e98ab4180ec7e04216ba9f
+      internalID: -1504695045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 399
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a639f7dbdc0d9545882a9f44ac982dc
+      internalID: -1842321549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 399
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f40cc7b5278a4daba64526ae13167
+      internalID: 1438476666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_17
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 399
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7133f880948d99044b5da955c6d29b06
+      internalID: 1782596890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 326
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53949e366421044468c8a91b46adff0d
+      internalID: -1699623091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 326
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c636638be0cb4fbccca94c1ff80fe
+      internalID: 1504165165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 326
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48edacf68efa094fa5ca5289febef5b
+      internalID: -875925270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 326
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d2bd2f673f7e64cb083dbe3cd75587
+      internalID: -2118923514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 325
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11569402975638d4685322814471499c
+      internalID: 1426337902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 325
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fc719ff43ec1149be427d03d46dd89
+      internalID: 77503946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 325
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c1990ab95299d458bed401c167b1ad
+      internalID: 1035670965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_25
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 325
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9f228054b1e374a86be068df4135a3
+      internalID: -1996204755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 262
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347a4edaa2e3c52428fd1357f5e50431
+      internalID: -566805072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_27
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 262
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f295cf7b89d14785edd297f4b8814
+      internalID: -1500758687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 262
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d6fa189dcdfb4b83df604c3eb65b5
+      internalID: 251476277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_29
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 262
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea884231f95974989a829d813a5c59
+      internalID: -387508346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 261
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048afcde45566064cb2aa27c08a5796b
+      internalID: 1408266968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_31
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 261
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef768f68a9be084284d9b73a0abad20
+      internalID: -709100322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 261
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7481d585c0fa97140a18b87d910a6469
+      internalID: -465439210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_33
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 258
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0158bb739d68719498b0176d3b749d5a
+      internalID: 1130785023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 207
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528944e14163c60469ee8392aa090a53
+      internalID: -1079206767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_35
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 207
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad232c2a7cf75946a2507846539224b
+      internalID: 827315421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 206
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0007767a90a8843a110be5edc39e3e
+      internalID: -27866119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 206
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736dbf11aa69dd042ba054bb8e2846e3
+      internalID: -1732027205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_38
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 207
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be7027273cb9f42a148e2690257784
+      internalID: 971597278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_39
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 207
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53540223a64763a49b6401abd0211bef
+      internalID: -1623792285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_40
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 206
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6785e976690349bca4b5686f9e24a
+      internalID: 2067739982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_41
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 206
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5d31e1a2b07fb4989379d89fc465d2
+      internalID: -2041000409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 134
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de571296236fb014d8bc50802137f331
+      internalID: -441554984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded483dfbf95d3469a3da8dd2a0cdce
+      internalID: 184903352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 137
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c782451b86afd14caf59feda1a7fc7f
+      internalID: 46492960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 137
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d6839677d5d942adf6a25d5941a7b
+      internalID: 818492801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_46
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 130
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1517b4db625114cacb303dce3393a7
+      internalID: -2069894589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_47
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 129
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebf9bb6343c3bb4282c8e688e5495ad
+      internalID: 2075626992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_48
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 130
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f11716d56d82a419d09932726097e7
+      internalID: 902052798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_49
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 129
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa0352ed93712d41b4d7017d5676b6b
+      internalID: 1136171167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_50
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 129
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeace23956815c44b995c2061949cea
+      internalID: 1616664728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_51
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 129
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c8a4a0a6e9fd4396fa4cee0898abf
+      internalID: -1206906325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_52
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 129
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6304aa5800ed14aa8c45ea9683cd35
+      internalID: 1890277999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 70
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41555555de0bef4885989cf015c50ad
+      internalID: 869976706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 72
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec95a2d04ce11743b3f50aab5bd9244
+      internalID: 1491596573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 73
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030df487f95d4984ca3b8945e05f2eab
+      internalID: 1462800461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 73
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e067cba89ac7e5848be80f20ba22821a
+      internalID: 1929437316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_57
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 64
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083619f7ce229e44db39849fb2cbd500
+      internalID: 274762854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_58
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 66
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebb59d563f2a6f489ddad281a972f4f
+      internalID: -232457727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_59
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 67
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b06c79a49fdb24087b94cb3847099f
+      internalID: -828178477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_60
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 66
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3953260d05e75843a7756a70ded10f8
+      internalID: 1878306309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_61
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 66
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83806d4f4c331a346a32b43b231c1491
+      internalID: 1782285680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_62
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 66
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9f08fe34fbf5a48b12fdff231a5b68
+      internalID: 1708501665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_63
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 66
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f367aaf52b1e38142ae7468e5a2d7a22
+      internalID: -631562426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 15
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e5fecb69dd1684990f835d079113c3
+      internalID: 508562868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 15
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08813841ab3803843878be64932f473e
+      internalID: 357470724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 15
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d34bdc5af9a6a40b1244deeb60de24
+      internalID: 724407691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_67
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 15
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89de08a3497117247a6b85bc266398db
+      internalID: 1528954685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_68
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7361825088153aa49b1d2dfd5ab2e30b
+      internalID: -61892893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_69
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 9
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a5cbcda3fe878488d650b092820af5
+      internalID: -2032345730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_70
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 9
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc59fa996d01df042b0042d25673697f
+      internalID: 1620738914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_71
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 9
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4f296b239462348ae6dd31fc0b2b27
+      internalID: -1507748166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_72
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 9
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e333281f9d59cc439512f57d30ebff9
+      internalID: 1539439197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_73
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 9
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb975dd598f3277459ef6daa9552779d
+      internalID: -1542863449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebug_74
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 9
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2086d8a9fbbe644ca65c6db6f8f2043
+      internalID: -616956966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Firebug_38: 971597278
+      Firebug_53: 869976706
+      Firebug_43: 184903352
+      Firebug_67: 1528954685
+      Firebug_28: 251476277
+      Firebug_40: 2067739982
+      Firebug_57: 274762854
+      Firebug_60: 1878306309
+      Firebug_6: -2095785452
+      Firebug_70: 1620738914
+      Firebug_23: 77503946
+      Firebug_58: -232457727
+      Firebug_31: -709100322
+      Firebug_26: -566805072
+      Firebug_62: 1708501665
+      Firebug_50: 1616664728
+      Firebug_24: 1035670965
+      Firebug_13: -1045843408
+      Firebug_73: -1542863449
+      Firebug_66: 724407691
+      Firebug_22: 1426337902
+      Firebug_12: 1202384333
+      Firebug_74: -616956966
+      Firebug_37: -1732027205
+      Firebug_48: 902052798
+      Firebug_21: -2118923514
+      Firebug_20: -875925270
+      Firebug_68: -61892893
+      Firebug_18: -1699623091
+      Firebug_65: 357470724
+      Firebug_45: 818492801
+      Firebug_71: -1507748166
+      Firebug_2: -718394292
+      Firebug_69: -2032345730
+      Firebug_41: -2041000409
+      Firebug_47: 2075626992
+      Firebug_7: -687048834
+      Firebug_33: 1130785023
+      Firebug_19: 1504165165
+      Firebug_44: 46492960
+      Firebug_3: 1834734709
+      Firebug_56: 1929437316
+      Firebug_35: 827315421
+      Firebug_4: -882935506
+      Firebug_34: -1079206767
+      Firebug_51: -1206906325
+      Firebug_15: -1842321549
+      Firebug_27: -1500758687
+      Firebug_59: -828178477
+      Firebug_8: -1263709099
+      Firebug_63: -631562426
+      Firebug_32: -465439210
+      Firebug_39: -1623792285
+      Firebug_14: -1504695045
+      Firebug_46: -2069894589
+      Firebug_52: 1890277999
+      Firebug_25: -1996204755
+      Firebug_29: -387508346
+      Firebug_9: 1309318018
+      Firebug_1: 966691803
+      Firebug_55: 1462800461
+      Firebug_5: -2002553797
+      Firebug_64: 508562868
+      Firebug_36: -27866119
+      Firebug_72: 1539439197
+      Firebug_42: -441554984
+      Firebug_11: -2024274901
+      Firebug_16: 1438476666
+      Firebug_30: 1408266968
+      Firebug_17: 1782596890
+      Firebug_49: 1136171167
+      Firebug_54: 1491596573
+      Firebug_0: -1005177346
+      Firebug_10: 1338675892
+      Firebug_61: 1782285680
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

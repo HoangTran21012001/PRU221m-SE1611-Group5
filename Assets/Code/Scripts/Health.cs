@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     private int hitPoints = 2;
     [SerializeField] 
     private int currencyWorth = 50;
+    [SerializeField] private AudioSource explosionSound;
 
     private bool isDestroyed = false;
 
@@ -23,12 +24,15 @@ public class Health : MonoBehaviour
             LevelManager.main.InCreaseCurrency(currencyWorth);
             isDestroyed= true;
             DestroyAni();
+            
         }
     }
 
     void DestroyAni()
     {
-        Instantiate(explosion, transform.position, Quaternion.identity); 
+        Instantiate(explosion, transform.position, Quaternion.identity);
+        explosionSound.Play();
         Destroy(gameObject);
+        
     }
 }
