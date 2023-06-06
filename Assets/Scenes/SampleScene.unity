@@ -58156,6 +58156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currencyUI: {fileID: 1168531400}
+  anim: {fileID: 1965724794}
 --- !u!95 &1965724794
 Animator:
   serializedVersion: 5
@@ -58176,6 +58177,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1967670944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58749,7 +58751,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2084040002}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1965724793}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: ToggleMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2084040002
 MonoBehaviour:
   m_ObjectHideFlags: 0
