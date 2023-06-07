@@ -55,6 +55,7 @@ public class FileDataHandler
                     writer.Write(dataToStore);
                 }
             }
+            Debug.Log(fullPath);
         }
         catch (Exception ex)
         {

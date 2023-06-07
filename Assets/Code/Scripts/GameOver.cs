@@ -8,8 +8,6 @@ public class GameOver : MonoBehaviour, IDataPersistenceManager
 {
     public Text roundsText;
 
-
-
     private void OnEnable()
     {
         if (LevelManager.Rounds <= 1)
