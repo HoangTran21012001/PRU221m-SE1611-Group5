@@ -1374,7 +1374,7 @@ MonoBehaviour:
   - {fileID: 297418615}
   - {fileID: 2124612244}
   - {fileID: 498485}
-  startLives: 1
+  startLives: 10
   currency: 100
 --- !u!4 &492374946
 Transform:
@@ -58177,7 +58177,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1967670944
 PrefabInstance:
   m_ObjectHideFlags: 0
