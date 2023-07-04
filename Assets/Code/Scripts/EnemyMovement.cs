@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -27,6 +28,7 @@ public class EnemyMovement : MonoBehaviour
         if (Vector2.Distance(target.position, transform.position) <= 0.1f)
         {
             pathIndex++;
+            
             if (pathIndex == LevelManager.main.path.Length)
             {
                 EnemySpawner.onEnemyDestroy.Invoke();
@@ -38,12 +40,28 @@ public class EnemyMovement : MonoBehaviour
                 target = LevelManager.main.path[pathIndex];
 
             }
+            
         }
     }
+    private void FlipEnemy()
+    {
+
+        // Calculate the direction vector from the next point to the current point
+        Vector3 direction = ((target.position - transform.position)).normalized;
+
+        // Rotate the enemy to face the new direction
+        transform.rotation = Quaternion.LookRotation(direction);
+    }
+
     private void FixedUpdate()
     {
-        Vector2 direction = (target.position - transform.position).normalized;
-        rb.velocity = direction * moveSpeed;
+        Vector2 direction = (target.position - transform.position);
+        rb.velocity = direction.normalized * moveSpeed;
+        
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        rb.MoveRotation(angle);
+
+        //rb.transform.up = target.position;
     }
     public void UpdateSpeed(float newSpeed)
     {

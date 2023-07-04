@@ -1408,6 +1408,7 @@ MonoBehaviour:
   - {fileID: 4028273617922775474, guid: fe811059f90133a42bafdc760f222610, type: 3}
   - {fileID: 6625160586409506225, guid: cba6b8d1ab0f8064d82ce4cfc1ce8ca8, type: 3}
   - {fileID: 3671030753253400272, guid: b42613736f6b20a4685992c484c76cf9, type: 3}
+  - {fileID: 6367707425115721627, guid: 696a968da6b8d1841916a215e8a7383d, type: 3}
   baseEnemies: 8
   enemiesPerSecond: 0.5
   timeBetweenWaves: 1
