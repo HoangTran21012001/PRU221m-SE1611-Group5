@@ -64,7 +64,7 @@ public class Turret : MonoBehaviour
 
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
-        bulletScript.SetTarget(target);
+        bulletScript.SetTarget(target, rotaionSpeed);
         shootEffect.Play();
     }
 

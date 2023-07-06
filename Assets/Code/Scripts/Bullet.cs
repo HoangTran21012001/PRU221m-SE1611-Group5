@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,9 +13,35 @@ public class Bullet : MonoBehaviour
 
     private Transform target;
 
-    public void SetTarget(Transform _target)
+    public void SetTarget(Transform _target, float rotationSpeed)
     {
         target = _target;
+
+        // Tính toán góc quay của viên đạn để hướng đi theo target
+        Vector2 direction = (target.position - transform.position).normalized;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // Sử dụng Coroutine để xoay từ góc hiện tại sang góc mới một cách mượt mà
+        StartCoroutine(RotateTowardsTarget(angle, rotationSpeed));
+    }
+
+    private IEnumerator RotateTowardsTarget(float targetAngle, float rotationSpeed)
+    {
+        Quaternion startRotation = transform.rotation;
+        Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetAngle);
+
+        float elapsedTime = 0f;
+        while (elapsedTime < 1f / rotationSpeed)
+        {
+            elapsedTime += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsedTime / (1f / rotationSpeed));
+
+            transform.rotation = Quaternion.Lerp(startRotation, targetRotation, t);
+            yield return null;
+        }
+
+        // Bắt đầu di chuyển theo target sau khi hoàn thành xoay
+        rb.velocity = transform.up * bulletSpeed;
     }
 
     private void FixedUpdate()
@@ -31,4 +57,6 @@ public class Bullet : MonoBehaviour
         other.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
         Destroy(gameObject);
     }
+
+
 }
