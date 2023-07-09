@@ -92,11 +92,13 @@ public class EnemySpawner : MonoBehaviour, IDataPersistenceManager
 
     public void LoadData(GameData data)
     {
-         LevelManager.Rounds = data.roundCount;
+        LevelManager.Rounds = data.roundCount;
+        WinGame.starRate = data.pointRate;
     }
 
     public void SaveData(ref GameData data)
     {
         data.roundCount = LevelManager.Rounds;
+        data.pointRate = WinGame.starRate;
     }
 }

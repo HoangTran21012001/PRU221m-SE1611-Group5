@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
     public Transform startPoint;
     public Transform[] path;
     public static int Lives;
-    public int startLives = 20;
+    public static int startLives = 15;
     public static int Rounds;
     public int currency;
 
