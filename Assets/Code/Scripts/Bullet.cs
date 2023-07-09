@@ -22,7 +22,10 @@ public class Bullet : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         // Sử dụng Coroutine để xoay từ góc hiện tại sang góc mới một cách mượt mà
-        StartCoroutine(RotateTowardsTarget(angle, rotationSpeed));
+        StartCoroutine(RotateTowardsTarget(angle - 90f, rotationSpeed)); // Đổi ở đây
+
+        // Đảo chiều mũi tên để nó hướng lên trên
+        transform.Rotate(0f, 0f, -90f);
     }
 
     private IEnumerator RotateTowardsTarget(float targetAngle, float rotationSpeed)
@@ -46,11 +49,15 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!target) return;
-        Vector2 direction = (target.position - transform.position).normalized;
+        if (!target)
+            return;
+
+        // Thay đổi dòng này để lấy hướng chính xác từ mũi tên
+        Vector2 direction = transform.up;
 
         rb.velocity = direction * bulletSpeed;
     }
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
