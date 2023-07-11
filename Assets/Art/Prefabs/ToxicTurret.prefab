@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1170439233, guid: 5cb7bc9abd227ac40b6083670759e729, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -575,8 +575,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3350684582355601281}
-  - component: {fileID: 6380923704643686072}
   - component: {fileID: 9068133161922050085}
+  - component: {fileID: 8530408547650846750}
   m_Layer: 0
   m_Name: ToxicTurret
   m_TagString: Untagged
@@ -602,31 +602,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6380923704643686072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4772961827022246598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61bad75ae50c5a940b6f888b82e6e79a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turretRotationPoint: {fileID: 8644612395527933505}
-  enemyMask:
-    serializedVersion: 2
-    m_Bits: 64
-  bulletPrefab: {fileID: 7270025516369002896, guid: eb4d5720fe2f98b4280051bb75d955f5, type: 3}
-  firingPoint: {fileID: 6565109458611307422}
-  upgradeUI: {fileID: 2949916871820628654}
-  upgradeButton: {fileID: 3921451211391335644}
-  shootEffect: {fileID: 9068133161922050085}
-  targetingRange: 5
-  rotaionSpeed: 5
-  bps: 1
-  baseUpgradeCost: 100
 --- !u!82 &9068133161922050085
 AudioSource:
   m_ObjectHideFlags: 0
@@ -723,6 +698,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8530408547650846750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4772961827022246598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f097052ef6d4786459f7fb170ff833e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretRotationPoint: {fileID: 8644612395527933505}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 64
+  bulletPrefab: {fileID: 7270025516369002896, guid: eb4d5720fe2f98b4280051bb75d955f5, type: 3}
+  firingPoint: {fileID: 6565109458611307422}
+  upgradeUI: {fileID: 2949916871820628654}
+  upgradeButton: {fileID: 3921451211391335644}
+  shootEffect: {fileID: 0}
+  targetingRange: 5
+  rotaionSpeed: 5
+  bps: 1
+  baseUpgradeCost: 100
 --- !u!1 &7793573573196436692
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1500240823, guid: 5f3f6b0cf8b252c43abcc1f1d0b0dec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

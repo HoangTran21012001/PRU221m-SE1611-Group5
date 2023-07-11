@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Turret : MonoBehaviour
+public class CannonTurret : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform turretRotationPoint;
@@ -63,8 +63,8 @@ public class Turret : MonoBehaviour
     {
 
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
-        Bullet bulletScript = bulletObj.GetComponent<Bullet>();
-        bulletScript.SetTarget(target, rotaionSpeed);
+        CannonBullet bulletScript = bulletObj.GetComponent<CannonBullet>();
+        bulletScript.SetTarget(target);
         shootEffect.Play();
     }
 
