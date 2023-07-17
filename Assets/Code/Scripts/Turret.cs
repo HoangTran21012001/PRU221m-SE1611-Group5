@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -65,6 +65,8 @@ public class Turret : MonoBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target, rotaionSpeed);
+        bulletScript.SetTargetingRangeBase(targetingRangeBase);
+
         shootEffect.Play();
     }
 
@@ -102,6 +104,10 @@ public class Turret : MonoBehaviour
     }
     public void Upgrade()
     {
+        if (level > 3) // Kiểm tra nếu đã đạt tối đa 3 cấp độ
+        {
+            return;
+        }
         if (CalculateCost() > LevelManager.main.currency)
         {
             return;

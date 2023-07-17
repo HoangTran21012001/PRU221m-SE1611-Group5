@@ -16,16 +16,34 @@ public class ToxicBullet : MonoBehaviour
     [SerializeField] private int damageOverTimeAmount = 1;
 
     private Transform target;
+    private float targetingRange;
 
     public void SetTarget(Transform _target)
     {
         target = _target;
     }
 
+    public void SetTargetingRangeBase(float rangeBase)
+    {
+        targetingRange = rangeBase;
+    }
+
     private void FixedUpdate()
     {
-        if (!target) return;
+        if (!target)
+        {
+            Destroy(gameObject);
+            return;
+        }
         Vector2 direction = (target.position - transform.position).normalized;
+
+        float distanceToTarget = Vector2.Distance(transform.position, target.position);
+
+        if (distanceToTarget >= targetingRange)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
         rb.velocity = direction * bulletSpeed;
     }
