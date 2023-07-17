@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -65,6 +65,7 @@ public class CannonTurret : MonoBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         CannonBullet bulletScript = bulletObj.GetComponent<CannonBullet>();
         bulletScript.SetTarget(target);
+        bulletScript.SetTargetingRangeBase(targetingRangeBase);
         shootEffect.Play();
     }
 
@@ -102,6 +103,10 @@ public class CannonTurret : MonoBehaviour
     }
     public void Upgrade()
     {
+        if (level > 3) // Kiểm tra nếu đã đạt tối đa 3 cấp độ
+        {
+            return;
+        }
         if (CalculateCost() > LevelManager.main.currency)
         {
             return;

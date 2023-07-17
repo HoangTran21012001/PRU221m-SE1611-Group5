@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,24 +7,25 @@ public class Bullet : MonoBehaviour
     [Header("References")]
     [SerializeField] private Rigidbody2D rb;
 
-    [Header("Atribute")]
+    [Header("Attributes")]
     [SerializeField] private float bulletSpeed = 5f;
     [SerializeField] private int bulletDamage = 1;
 
     private Transform target;
+    private float targetingRange;
 
     public void SetTarget(Transform _target, float rotationSpeed)
     {
         target = _target;
 
-        // T�nh to�n g�c quay c?a vi�n ??n ?? h??ng ?i theo target
+        // Tính toán góc quay của viên đạn để hướng đi theo target
         Vector2 direction = (target.position - transform.position).normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        // S? d?ng Coroutine ?? xoay t? g�c hi?n t?i sang g�c m?i m?t c�ch m??t m�
-        StartCoroutine(RotateTowardsTarget(angle - 90f, rotationSpeed)); // ??i ? ?�y
+        // Sử dụng Coroutine để xoay từ góc hiện tại sang góc mới một cách mượt mà
+        StartCoroutine(RotateTowardsTarget(angle - 90f, rotationSpeed));
 
-        // ??o chi?u m?i t�n ?? n� h??ng l�n tr�n
+        // Đảo chiều mũi tên để nó hướng lên trên
         transform.Rotate(0f, 0f, -90f);
     }
 
@@ -43,27 +44,38 @@ public class Bullet : MonoBehaviour
             yield return null;
         }
 
-        // B?t ??u di chuy?n theo target sau khi ho�n th�nh xoay
+        // Bắt đầu di chuyển theo target sau khi hoàn thành xoay
         rb.velocity = transform.up * bulletSpeed;
+    }
+
+    public void SetTargetingRangeBase(float rangeBase)
+    {
+        targetingRange = rangeBase;
     }
 
     private void FixedUpdate()
     {
         if (!target)
+        {
+            Destroy(gameObject);
             return;
+        }
 
-        // Thay ??i d�ng n�y ?? l?y h??ng ch�nh x�c t? m?i t�n
+        float distanceToTarget = Vector2.Distance(transform.position, target.position);
+
+        if (distanceToTarget >= targetingRange)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Vector2 direction = transform.up;
-
         rb.velocity = direction * bulletSpeed;
     }
-
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         other.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
         Destroy(gameObject);
     }
-
-
 }

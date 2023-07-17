@@ -596,9 +596,9 @@ MonoBehaviour:
   firingPoint: {fileID: 3348899847829595702}
   upgradeUI: {fileID: 1459197917390502071}
   upgradeButton: {fileID: 6373006372646130221}
-  shootEffect: {fileID: 0}
-  targetingRange: 5
-  rotaionSpeed: 5
+  shootEffect: {fileID: -8624377860214519562}
+  targetingRange: 8
+  rotaionSpeed: 90
   bps: 1
   baseUpgradeCost: 100
 --- !u!1 &5818162928009565037
