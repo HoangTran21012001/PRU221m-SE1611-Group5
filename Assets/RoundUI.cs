@@ -10,6 +10,6 @@ public class RoundUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        roundsText.text = "Round: " + LevelManager.Rounds.ToString();
+        roundsText.text = LevelManager.Rounds.ToString();
     }
 }

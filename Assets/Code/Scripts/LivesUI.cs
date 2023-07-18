@@ -10,6 +10,6 @@ public class LivesUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        livesText.text =  "Heath: " + LevelManager.Lives.ToString();
+        livesText.text = LevelManager.Lives.ToString();
     }
 }

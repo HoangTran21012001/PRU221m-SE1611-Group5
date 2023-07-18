@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1981744627904285252}
   - component: {fileID: 531555617135337286}
   m_Layer: 7
-  m_Name: ArcherBullet
+  m_Name: ArcherBullet_lv1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
