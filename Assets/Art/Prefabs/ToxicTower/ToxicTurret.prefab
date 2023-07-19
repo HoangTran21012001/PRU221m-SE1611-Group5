@@ -540,7 +540,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 7270025516369002896, guid: eb4d5720fe2f98b4280051bb75d955f5, type: 3}
+  bulletPrefab: {fileID: 7270025516369002896, guid: 54d4266939ec1a34c9efc3a227871981, type: 3}
   firingPoint: {fileID: 6565109458611307422}
   upgradeUI: {fileID: 0}
   upgradeButton: {fileID: 0}
