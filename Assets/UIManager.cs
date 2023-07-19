@@ -12,21 +12,10 @@ public class UIManager : MonoBehaviour
     }
     public void SetHoveringState(bool state)
     {
-        isHoveringUI= state;
+        isHoveringUI = state;
     }
     public bool IsHoveringUI()
     {
         return isHoveringUI;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

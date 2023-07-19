@@ -10,14 +10,14 @@ public class LevelManager : MonoBehaviour
     public Transform startPoint;
     public Transform[] path;
     public static int Lives;
-    public static int startLives = 15;
     public static int Rounds;
+    public static int money = 100;
     public int currency;
 
     private void Awake()
     {
         main = this;
-        Lives = startLives;
+        Lives = 100;
 
     }
 
@@ -30,6 +30,7 @@ public class LevelManager : MonoBehaviour
     public void InCreaseCurrency(int amount)
     {
         currency += amount;
+        money = currency;
     }
 
     public bool SpendCurrency(int amount)

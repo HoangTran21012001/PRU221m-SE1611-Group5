@@ -55,7 +55,6 @@ public class DataPersistenceManager : MonoBehaviour
         {
             dataPersistenceObj.LoadData(gameData);
         }
-        Debug.Log("Load Round Count = " + gameData.roundCount);
     }
     public void SaveGame()
     {
@@ -63,7 +62,6 @@ public class DataPersistenceManager : MonoBehaviour
         {
             dataPersistenceObj.SaveData(ref gameData);
         }
-        Debug.Log("Save Round Count = " + gameData.roundCount);
         dataHandler.Save(gameData);
     }
 

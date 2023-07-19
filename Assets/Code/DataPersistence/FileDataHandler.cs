@@ -8,7 +8,10 @@ public class FileDataHandler
 {
     private string dataDirPath = "";
     private string dataFileName = "";
+    public FileDataHandler()
+    {
 
+    }
     public FileDataHandler(string dataDirPath, string dataFileName)
     {
         this.dataDirPath = dataDirPath;

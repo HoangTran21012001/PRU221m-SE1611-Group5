@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public static bool gameIsOver;
     public static bool winGame;
+    public int rountWin;
+    public int minLive;
 
     public GameObject gameOverUI;
     public GameObject winGameUI;
@@ -22,11 +24,11 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
-        if(LevelManager.Lives <= 0)
+        if(LevelManager.Lives <= minLive)
         {
             EndGame();
         }
-        if(LevelManager.Rounds == 6)
+        if(LevelManager.Rounds == rountWin)
         {
             WinGame();
         }
@@ -41,7 +43,6 @@ public class GameManager : MonoBehaviour
     void EndGame()
     {
         gameIsOver = true;
-
         gameOverUI.SetActive(true);
     }
 }

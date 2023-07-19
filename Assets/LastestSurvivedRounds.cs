@@ -17,6 +17,5 @@ public class LastestSurvivedRounds : MonoBehaviour
         string fullPath = Application.persistentDataPath + "/data.json";
         string json = File.ReadAllText(fullPath);
         GameData data = JsonUtility.FromJson<GameData>(json);
-        roundsSurviedText.text = "Lastest Rounds Survived: " + data.roundCount;
     }
 }

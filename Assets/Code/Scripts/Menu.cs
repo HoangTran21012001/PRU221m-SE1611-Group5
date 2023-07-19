@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
     [Header("References")]
     [SerializeField]
-    TextMeshProUGUI currencyUI;
-    [SerializeField] Animator anim;
+    Text currencyUI;
     private bool isMenuOpen = true;
 
     public void ToggleMenu()
     {
         isMenuOpen = !isMenuOpen;
-        anim.SetBool("menuOpen", isMenuOpen);
     }
 
     private void OnGUI()

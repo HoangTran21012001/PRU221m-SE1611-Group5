@@ -5,14 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
- 
+
+    public GameObject games;
+    public GameObject menu;
+
     public void ExxitButton()
     {
         Application.Quit();
         Debug.Log("Game closed");
     }
+
+
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        games.SetActive(true);
+        menu.SetActive(false);
+    }
+
+    public void closeScreen()
+    {
+        games.SetActive(false);
+        menu.SetActive(true);
     }
 }
